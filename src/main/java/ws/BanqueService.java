@@ -7,7 +7,6 @@ import java.util.Date;
 import java.util.List;
 
 @WebService(serviceName = "BanqueWS")
-
 public class BanqueService {
     @WebMethod(operationName = "conversionEuroToDH")
     public double conversion(@WebParam(name = "montant") double mt){
